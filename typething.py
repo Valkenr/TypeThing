@@ -25,6 +25,7 @@ def main():
             print(f"  {key}")
             if key == this_letter:
                 score += 1
+            time.sleep(0.3)
         end_time = time.time()
         game_time = end_time - start_time
 
